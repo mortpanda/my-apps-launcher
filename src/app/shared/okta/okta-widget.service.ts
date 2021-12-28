@@ -70,7 +70,7 @@ export class OktaWidgetService {
       oktaSignIn.remove();
       const idToken = tokens.idToken;
       console.log("Hello, " + idToken.claims.email + "! You just logged in! :)");
-      window.location.replace(this.OktaConfig.strRedirectURL);
+      window.location.replace(OktaRedirect);
       return true;
 
     }).catch(function (err) {
