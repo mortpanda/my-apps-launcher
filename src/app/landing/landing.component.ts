@@ -26,10 +26,7 @@ export class LandingComponent implements OnInit {
     public _snackBar: MatSnackBar,
     public OktaWidgetService: OktaWidgetService,
   ) { }
-  // async ngOnInit() {
-  //   await this.OktaWidgetService.CloseWidget();
-  //   await this.OktaWidgetService.login();
-  // }
+
   async ngOnInit()  {
     this.OktaWidgetService.CloseWidget();
     
@@ -56,35 +53,7 @@ export class LandingComponent implements OnInit {
 
     }
   }
-  // async ngOnInit() {
-
-  //   this.authService.token.getUserInfo()
-  //     .then(function (user) {
-  //       //console.log(user)
-  //     })
-  //   this.strUserSession = await this.authService.session.exists()
-  //     .then(function (exists) {
-  //       if (exists) {
-  //         // logged in
-
-  //         return exists
-  //       } else {
-  //         // not logged in
-  //         return exists
-  //       }
-  //     });
-  //   switch (this.strUserSession == true) {
-  //     case false:
-  //       await this.OktaWidgetService.CloseWidget();
-  //       await this.OktaWidgetService.login();
-  //     case true:
-  //       await window.location.replace('/dashboard');
-  //       //this.OktaGetTokenService.GetAccessToken();
-  //       break;
-
-  //   }
-
-  // }
+  
 
 
 }
