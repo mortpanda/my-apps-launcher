@@ -45,6 +45,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AuthNoticeComponent } from './auth-notice/auth-notice.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,6 +55,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SamplePageComponent,
     AuthNoticeComponent,
     DashboardComponent,
+    
    
     
   ],
