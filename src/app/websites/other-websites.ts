@@ -26,7 +26,7 @@ export interface OtherWebsites {
       
     },
     {
-      name: 'Bookmar DokuWiki',
+      name: 'Bookmark DokuWiki',
       url: 'https://bookmark.oci-4.duckdns.org/',
     },
     {
