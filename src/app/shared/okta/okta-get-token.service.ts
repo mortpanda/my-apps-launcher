@@ -20,6 +20,9 @@ export class OktaGetTokenService {
 
 
   strUserName;
+  strFirstName;
+  strLastName;
+  strFullName;
   async GetAccessToken() {
     const accessToken: AccessToken = await this.authService.tokenManager.get('accessToken') as AccessToken;
     //this.myUserID = accessToken.claims.uid;
@@ -28,6 +31,7 @@ export class OktaGetTokenService {
     console.log(this.myAccessToken.accessToken);
     this.strUserName = this.myAccessToken.claims.sub;
     console.log("username for the stateToken : " + this.strUserName);
+    
   }
 
 }
