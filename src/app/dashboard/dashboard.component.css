@@ -1,3 +1,28 @@
+.strCity{
+  color:#00297A!important;
+  font-size: 30px!important;
+  font-weight: 500!important;
+  text-align: center!important;
+  margin-top: 15px!important;
+  /* vertical-align: middle!important; */
+}
+
+.strLocalDate{
+  color:#41414B!important;
+  font-size: 20px!important;
+  font-weight: 600!important;
+  text-align: center!important;
+  margin-top: 15px!important;
+}
+
+.strLocalTime{
+  color:#00297A!important;
+  font-size: 28px!important;
+  font-weight: 600!important;
+  text-align: center!important;
+  margin-top: 15px!important;
+}
+
 .mainBannerBox{
   background-color: transparent!important;
   /* width: auto;

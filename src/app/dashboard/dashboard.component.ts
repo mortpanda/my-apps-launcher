@@ -14,6 +14,7 @@ import {AdminDashboard, AdminSites} from 'app/websites/admin-dashboard';
 import {EuDashboard, UserSites} from 'app/websites/eu-dashboard';
 import {MyProjects, ProjectSites} from 'app/websites/my-projects';
 import {OktaWebsites, oktaWebsite} from 'app/websites/okta-websites';
+import { GetTimeService } from 'app/shared/world-clock/get-time.service';
 
 
 @Component({
@@ -38,7 +39,8 @@ export class DashboardComponent implements OnInit {
 
   constructor(public OktaGetTokenService: OktaGetTokenService,
     public OktaSDKAuthService: OktaSDKAuthService,
-    public _snackBar: MatSnackBar
+    public _snackBar: MatSnackBar,
+    public GetTimeService: GetTimeService,  
   ) { }
 
   // NotAuthed() {
@@ -75,6 +77,7 @@ export class DashboardComponent implements OnInit {
         await window.location.replace('/');
       case true:
         this.OktaGetTokenService.GetAccessToken();
+        await this.GetTimeService.GetWorldTime();
         break;
 
     }

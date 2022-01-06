@@ -44,7 +44,7 @@ import { SamplePageComponent } from './sample-page/sample-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AuthNoticeComponent } from './auth-notice/auth-notice.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
+import { DatePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -101,6 +101,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   providers: [
     OktaSDKAuthService,    
+    DatePipe,
   ], 
 
   
