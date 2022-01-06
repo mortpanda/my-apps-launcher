@@ -30,7 +30,20 @@ export const AdminSites = [
     name: 'DeNA Test Org',
     url:'https://csm-dena-admin.okta.com/admin/dashboard/',
     image: 'assets/img/okta_logo_blue_small.png'
+  },
+  {
+    id: 5,
+    name: 'JFE Test Admin',
+    url:'https://jfe-eng-sub-admin.oktapreview.com/admin/dashboard/',
+    image: 'assets/img/okta_logo_blue_small.png'
+  },
+  {
+    id: '6',
+    name: 'Auth0 Org',
+    url: 'https://manage.auth0.com/dashboard/jp/kent-nagao/',
+    image: 'assets/img/okta_logo_blue_small.png'
   }
+
 ];
 
 

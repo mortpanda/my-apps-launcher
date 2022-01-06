@@ -49,7 +49,7 @@ export const OtherWebsite = [
   {
     name: 'Navidrome',
     url: 'http://oci-2.duckdns.org:4533/',
-  }
+  },
 ];
 
 
