@@ -46,6 +46,10 @@ export const ProjectSites = [
   {
     name: 'Yoshi Portal News App',
     url: 'https://mortpanda.github.io/yoshi-ciam-angular-portal-news',
+  },
+  {
+    name: 'World Clock',
+    url: 'https://mortpanda.github.io/angular-world-clock',
   }
 
 ];
