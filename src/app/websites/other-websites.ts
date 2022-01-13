@@ -50,18 +50,6 @@ export const OtherWebsite = [
     name: 'Navidrome',
     url: 'http://oci-2.duckdns.org:4533/',
   },
-  {
-    name: 'Angular Material Components',
-    url: 'https://material.angular.io/',
-  },
-  {
-    name: 'Angular Material Icons',
-    url: 'https://fonts.google.com/icons?selected=Material+Icons',
-  },
-  {
-    name: 'Ionic Components',
-    url: 'https://ionicframework.com/docs/components',
-  },
 ];
 
 

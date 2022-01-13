@@ -8,13 +8,15 @@ import { OktaGetTokenService } from 'app/shared/okta/okta-get-token.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
+import { GetTimeService } from 'app/shared/world-clock/get-time.service';
 
 import {OtherWebsites, OtherWebsite} from 'app/websites/other-websites';
 import {AdminDashboard, AdminSites} from 'app/websites/admin-dashboard';
 import {EuDashboard, UserSites} from 'app/websites/eu-dashboard';
 import {MyProjects, ProjectSites} from 'app/websites/my-projects';
 import {OktaWebsites, oktaWebsite} from 'app/websites/okta-websites';
-import { GetTimeService } from 'app/shared/world-clock/get-time.service';
+import  {DevInfoSites, DevInfo} from 'app/websites/dev-info-sites';
+import {KlabProjects,KlabSites } from 'app/websites/klab-projects';
 
 
 @Component({
@@ -29,6 +31,8 @@ export class DashboardComponent implements OnInit {
   UserSites = UserSites;
   ProjectSites = ProjectSites;
   oktaWebsite = oktaWebsite;
+  DevInfo = DevInfo;
+  KlabSites = KlabSites;
 
 
 
