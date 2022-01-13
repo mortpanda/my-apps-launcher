@@ -31,8 +31,12 @@ export const UserSites = [
   {
     name: 'DeNA Test Org',
     url:'https://csm-dena.okta.com/app/UserHome',
-    image: 'assets/img/okta_logo_blue_small.png'
-  }
+    image: 'assets/img,/okta_logo_blue_small.png'
+  },
+  {
+    name: 'Japan Corporate AEs Test Org',
+    url: 'https://jpn-corp-ae-admin.oktapreview.com/'
+  },
 ];
 
 

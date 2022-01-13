@@ -27,6 +27,10 @@ export const AdminSites = [
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
+    name: 'Japan Corporate AEs Test Org',
+    url: 'https://jpn-corp-ae-admin.oktapreview.com/admin/dashboard'
+  },
+  {
     name: 'DeNA Test Org',
     url:'https://csm-dena-admin.okta.com/admin/dashboard/',
     image: 'assets/img/okta_logo_blue_small.png'
@@ -45,6 +49,7 @@ export const AdminSites = [
     name: 'mixi-dc-test org',
     url: 'https://oktamixi-dc-test-admin.okta.com/admin/dashboard'
   },
+  
   
   
 ];
