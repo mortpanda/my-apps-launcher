@@ -47,7 +47,20 @@
             </div>
           </mat-tab>
 
-          <mat-tab label="Angular Projects">
+          <mat-tab label="CSM Lab Angular Projects">
+            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
+              <div class="item itemAdmin" *ngFor="let itemProjectSite of ProjectSites">
+                <div class="itemDiv">
+                  <a class="websiteTitle">{{ itemProjectSite.name }}</a><br />
+                  <a class="websiteURL urlAdmin">{{ itemProjectSite.url }}</a><br />
+                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
+                    href="{{ itemProjectSite.url }}" target="_blank">Go</a>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+
+          <mat-tab label="Dev Info Sites">
             <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
               <div class="item itemAdmin" *ngFor="let itemProjectSite of ProjectSites">
                 <div class="itemDiv">

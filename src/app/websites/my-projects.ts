@@ -28,7 +28,7 @@ export const ProjectSites = [
     url: 'https://mortpanda.github.io/angular-ciam-portal-news/',
   },
   {
-    name: 'CIAM Demo Form App',
+    name: 'CIAM Demo Forum App',
     url: 'https://mortpanda.github.io/angular-ciam-portal-bbs/',
   },
   {
