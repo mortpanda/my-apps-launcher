@@ -21,6 +21,13 @@ export const DevInfo =[
   {
     name: 'Angular Flexlayout Tutorial',
     url:'https://dev.classmethod.jp/articles/angular-flex-layout/',
-  
-  },
+    },
+    {
+      name: 'Auth0 - Lock API Reference',
+      url:'https://auth0.com/docs/libraries/lock/lock-api-reference',
+      },
+    {
+      name: 'Auth - Angular Lock',
+      url:'https://github.com/auth0/angular-lock',
+      },
 ];

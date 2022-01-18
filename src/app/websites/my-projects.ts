@@ -7,6 +7,7 @@ export interface MyProjects {
 }
 
 export const ProjectSites = [
+  
   {
     name: '"Have I been pwned" checker',
     url: 'https://mortpanda.github.io/okta-siw-hibp-v2/home',
@@ -50,7 +51,11 @@ export const ProjectSites = [
   {
     name: 'World Clock',
     url: 'https://mortpanda.github.io/angular-world-clock',
-  }
+  },
+  {
+    name: 'JP Corp AE App Launcher',
+    url: 'https://mortpanda.github.io/jpn-corp-ae-app-launcher/',
+  },
 
 ];
 
