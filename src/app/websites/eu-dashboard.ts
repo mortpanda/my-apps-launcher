@@ -29,6 +29,10 @@ export const UserSites = [
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
+    name: 'Iimura-san Lab',
+    url: 'https://takuya-iimura.oktapreview.com'
+  },
+  {
     name: 'DeNA Test Org',
     url:'https://csm-dena.okta.com/app/UserHome',
     image: 'assets/img,/okta_logo_blue_small.png'

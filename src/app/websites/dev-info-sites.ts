@@ -2,10 +2,10 @@ export interface DevInfoSites {
 
   name: string;
   url: string;
-  
+
 }
 
-export const DevInfo =[
+export const DevInfo = [
   {
     name: 'Angular Material Components',
     url: 'https://material.angular.io/',
@@ -20,14 +20,19 @@ export const DevInfo =[
   },
   {
     name: 'Angular Flexlayout Tutorial',
-    url:'https://dev.classmethod.jp/articles/angular-flex-layout/',
+    url: 'https://dev.classmethod.jp/articles/angular-flex-layout/',
+  },
+  {
+    name: 'Auth0 - Lock API Reference',
+    url: 'https://auth0.com/docs/libraries/lock/lock-api-reference',
+  },
+  {
+    name: 'Auth0 - Angular Lock',
+    url: 'https://github.com/auth0/angular-lock',
+  },
+  {
+    name: 'Markdown cheat sheet',
+    url:'https://www.markdownguide.org/cheat-sheet/',
     },
-    {
-      name: 'Auth0 - Lock API Reference',
-      url:'https://auth0.com/docs/libraries/lock/lock-api-reference',
-      },
-    {
-      name: 'Auth - Angular Lock',
-      url:'https://github.com/auth0/angular-lock',
-      },
 ];
+

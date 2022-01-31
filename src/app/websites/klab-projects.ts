@@ -22,17 +22,16 @@ export const KlabSites = [
   },
   {
     name: 'Klab - Portal App - DENTAKU',
-    url: 'https://mortpanda.github.io/klab-ciam-portal-calc/home'
+    url: 'https://mortpanda.github.io/klab-ciam-portal-calc/'
   },
   {
     name: 'Klab - HIBP Checker v2',
-    url: 'https://mortpanda.github.io/klab-okta-siw-hibp-v2/home'
+    url: 'https://mortpanda.github.io/klab-okta-siw-hibp-v2/'
   },
-
+  {
+    name: 'Klab - B2B Demo App2',
+    url: 'https://mortpanda.github.io/klab-okta-siw-hibp-v2/'
+  },
 ]
 
 
-//Projects
-  // World Clock
-  // Okta Admin dashboard
-  //

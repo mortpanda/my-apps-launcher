@@ -27,6 +27,10 @@ export const AdminSites = [
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
+    name: 'Iimura-san Lab',
+    url: 'https://takuya-iimura-admin.oktapreview.com/admin/dashboard'
+  },
+  {
     name: 'Japan Corporate AEs Test Org',
     url: 'https://jpn-corp-ae-admin.oktapreview.com/admin/dashboard'
   },
