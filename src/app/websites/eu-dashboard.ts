@@ -19,6 +19,10 @@ export const UserSites = [
     image: 'assets/img/okta-japan-small.png'
   },
   {
+    name: 'Kent Lab - OIE Org',
+    url: 'https://kent-nagao-oie.oktapreview.com/app/UserHome'
+  },
+  {
     name: 'CSM Lab',
     url:'https://csm-apac.oktapreview.com/',
     image: 'assets/img/okta_logo_blue_small.png'
