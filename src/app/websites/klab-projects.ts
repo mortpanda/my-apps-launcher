@@ -30,7 +30,7 @@ export const KlabSites = [
   },
   {
     name: 'Klab - B2B Demo App2',
-    url: 'https://mortpanda.github.io/klab-okta-siw-hibp-v2/'
+    url: 'https://mortpanda.github.io/klab-b2b-demo-1/'
   },
 ]
 
