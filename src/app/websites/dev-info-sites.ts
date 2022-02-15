@@ -7,6 +7,18 @@ export interface DevInfoSites {
 
 export const DevInfo = [
   {
+    name: 'KLAB - Org OIDC Endpoints',
+    url: 'https://kent-nagao-test.oktapreview.com/.well-known/openid-configuration/',
+  },
+  {
+    name: 'CSM Lab - Org OIDC Endpoints',
+    url: 'https://csm-apac.oktapreview.com/.well-known/openid-configuration/',
+  },
+  {
+    name: 'Yoshi Lab - Org OIDC Endpoints',
+    url: 'https://dev-1854044.okta.com/.well-known/openid-configuration',
+  },
+  {
     name: 'Angular Material Components',
     url: 'https://material.angular.io/',
   },
@@ -32,7 +44,8 @@ export const DevInfo = [
   },
   {
     name: 'Markdown cheat sheet',
-    url:'https://www.markdownguide.org/cheat-sheet/',
-    },
+    url: 'https://www.markdownguide.org/cheat-sheet/',
+  },
+
 ];
 
