@@ -1,5 +1,5 @@
 export interface AdminDashboard {
-//export interface Product {
+  //export interface Product {
   //id: number;
   name: string;
   url: string;
@@ -9,7 +9,7 @@ export interface AdminDashboard {
 export const AdminSites = [
   {
     name: 'Kent Lab',
-    url:'https://kent-nagao-test-admin.oktapreview.com',
+    url: 'https://kent-nagao-test-admin.oktapreview.com',
     image: 'assets/img/okta-japan-small.png'
   },
   {
@@ -17,13 +17,18 @@ export const AdminSites = [
     url: 'https://kent-nagao-test-child-admin.oktapreview.com/admin/dashboard'
   },
   {
+    name: 'Kent Lab - Test Prod',
+    url: 'https://kent-nagao-test-prod-admin.oktapreview.com/admin/dashboard',
+    image: 'assets/img/okta_logo_blue_small.png'
+  },
+  {
     name: 'CSM Lab',
-    url:'https://csm-apac-admin.oktapreview.com/',
+    url: 'https://csm-apac-admin.oktapreview.com/',
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
     name: 'Yoshi Lab',
-    url:'https://dev-1854044-admin.okta.com/',
+    url: 'https://dev-1854044-admin.okta.com/',
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
@@ -36,12 +41,12 @@ export const AdminSites = [
   },
   {
     name: 'DeNA Test Org',
-    url:'https://csm-dena-admin.okta.com/admin/dashboard/',
+    url: 'https://csm-dena-admin.okta.com/admin/dashboard/',
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
     name: 'JFE Test Admin',
-    url:'https://jfe-eng-sub-admin.oktapreview.com/admin/dashboard/',
+    url: 'https://jfe-eng-sub-admin.oktapreview.com/admin/dashboard/',
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
@@ -53,9 +58,9 @@ export const AdminSites = [
     name: 'mixi-dc-test org',
     url: 'https://oktamixi-dc-test-admin.okta.com/admin/dashboard'
   },
-  
-  
-  
+
+
+
 ];
 
 
