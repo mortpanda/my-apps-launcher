@@ -20,8 +20,12 @@ export const UserSites = [
   },
   {
     name: 'Kent Lab - Test Prod',
-    url: 'https://kent-nagao-test-prod-admin.oktapreview.com/',
+    url: 'https://kent-nagao-test-prod.oktapreview.com/',
     image: 'assets/img/okta_logo_blue_small.png'
+  },
+  {
+    name: 'Kent Lab - OIE Org',
+    url: 'https://kent-nagao-oie.oktapreview.com/'
   },
   {
     name: 'CSM Lab',

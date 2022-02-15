@@ -22,6 +22,10 @@ export const AdminSites = [
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
+    name: 'Kent Lab - OIE Org',
+    url: 'https://kent-nagao-oie-admin.oktapreview.com/admin/dashboard'
+  },
+  {
     name: 'CSM Lab',
     url: 'https://csm-apac-admin.oktapreview.com/',
     image: 'assets/img/okta_logo_blue_small.png'
