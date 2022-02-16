@@ -62,6 +62,10 @@ export const AdminSites = [
     name: 'mixi-dc-test org',
     url: 'https://oktamixi-dc-test-admin.okta.com/admin/dashboard'
   },
+  {
+    name: 'mO365 Admin Centre',
+    url: 'https://admin.microsoft.com/Adminportal'
+  },
 
 
 
