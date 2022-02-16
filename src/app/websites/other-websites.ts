@@ -50,6 +50,10 @@ export const OtherWebsite = [
     name: 'Navidrome',
     url: 'http://oci-2.duckdns.org:4533/',
   },
+  {
+    name: 'oci4.duckdns.org Grafana',
+    url: 'https://grafana.oci-4.duckdns.org/',
+  },
 ];
 
 
