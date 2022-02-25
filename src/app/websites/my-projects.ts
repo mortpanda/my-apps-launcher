@@ -49,6 +49,10 @@ export const ProjectSites = [
     url: 'https://mortpanda.github.io/yoshi-ciam-angular-portal-news',
   },
   {
+    name: 'Yoshi JWT Customisation Demo',
+    url: 'https://mortpanda.github.io/yoshi-angular-jwt-customisation-demo/',
+  },
+  {
     name: 'World Clock',
     url: 'https://mortpanda.github.io/angular-world-clock',
   },
