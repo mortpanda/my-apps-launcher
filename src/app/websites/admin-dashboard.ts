@@ -66,9 +66,13 @@ export const AdminSites = [
     name: 'mO365 Admin Centre',
     url: 'https://admin.microsoft.com/Adminportal'
   },
+  {
+    name: 'Azure AD Endpoint Manager',
+    url: 'https://endpoint.microsoft.com/'
+  },
 
 
-
+  
 ];
 
 
