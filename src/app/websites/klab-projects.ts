@@ -32,6 +32,11 @@ export const KlabSites = [
     name: 'Klab - B2B Demo App2',
     url: 'https://mortpanda.github.io/klab-b2b-demo-1/'
   },
+  {
+    name: 'Klab - MFA Reset',
+    url: 'https://mortpanda.github.io/angular-mfa-reset/'
+  },
+  
 ]
 
 
