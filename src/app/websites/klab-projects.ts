@@ -9,6 +9,10 @@ export const KlabSites = [
     url: 'https://mortpanda.github.io/klab-ciam-portal-1/'
   },
   {
+    name: 'Klab - CIAM Member Site 3',
+    url: 'https://mortpanda.github.io/klab-ciam-member-site-3/'
+  },
+  {
     name: 'Klab - CIAM Member Site 1',
     url: 'https://mortpanda.github.io/klab-ciam-member-site-1'
   },
