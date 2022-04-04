@@ -35,6 +35,10 @@ export const DevInfo = [
     url: 'https://dev.classmethod.jp/articles/angular-flex-layout/',
   },
   {
+    name: 'NGX JSON Viewer',
+    url: 'https://github.com/hivivo/ngx-json-viewer/',
+  },
+  {
     name: 'Auth0 - Lock API Reference',
     url: 'https://auth0.com/docs/libraries/lock/lock-api-reference',
   },
@@ -46,6 +50,6 @@ export const DevInfo = [
     name: 'Markdown cheat sheet',
     url: 'https://www.markdownguide.org/cheat-sheet/',
   },
-
+  
 ];
 
