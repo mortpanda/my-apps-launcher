@@ -29,6 +29,10 @@ export const KlabSites = [
     url: 'https://mortpanda.github.io/klab-ciam-portal-calc/'
   },
   {
+    name: 'Klab - JWT Custom and Scope Quick Test',
+    url: 'https://mortpanda.github.io/angular-jwt-customisation-demo-v2/'
+  },
+  {
     name: 'Klab - HIBP Checker v2',
     url: 'https://mortpanda.github.io/klab-okta-siw-hibp-v2/'
   },
