@@ -36,6 +36,11 @@ export const AdminSites = [
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
+    name: 'Yoshi OIE Lab',
+    url: 'https://bash3ciam-admin.okta.com/admin/dashboard/',
+    image: 'assets/img/okta_logo_blue_small.png'
+  },
+  {
     name: 'Iimura-san Lab',
     url: 'https://takuya-iimura-admin.oktapreview.com/admin/dashboard'
   },

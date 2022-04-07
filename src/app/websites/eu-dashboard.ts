@@ -38,6 +38,11 @@ export const UserSites = [
     image: 'assets/img/okta_logo_blue_small.png'
   },
   {
+    name: 'Yoshi OIE Lab',
+    url: 'https://bash3ciam.okta.com/',
+    image: 'assets/img/okta_logo_blue_small.png'
+  },
+  {
     name: 'Iimura-san Lab',
     url: 'https://takuya-iimura.oktapreview.com'
   },
