@@ -44,6 +44,10 @@ export const KlabSites = [
     name: 'Klab - MFA Reset',
     url: 'https://mortpanda.github.io/angular-mfa-reset/'
   },
+  {
+    name: 'Klab OIE - B2B Inventory Mgt',
+    url: 'https://mortpanda.github.io/oie-white-lions-den-invt-mgt/'
+  },
   
 ]
 
