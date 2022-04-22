@@ -1,29 +1,34 @@
-export interface OktaWebsites {    
-      name: string;
-      url: string;
-    }
+export interface OktaWebsites {
+    name: string;
+    url: string;
+}
 
 
 export const oktaWebsite = [
+    // {
+    //     name: 'Okta Release Notes',
+    //     url:'https://help.okta.com/en/prod/Content/Topics/ReleaseNotes/okta-relnotes.htm',
+    // },
     {
         name: 'Okta Release Notes',
-        url:'https://help.okta.com/en/prod/Content/Topics/ReleaseNotes/okta-relnotes.htm',
+        url: 'https://help.okta.com/en-us/Content/Topics/ReleaseNotes/production.htm',
     },
+
     {
         name: 'Okta Annoucements',
-        url:'https://support.okta.com/help/s/announcement-center?language=en_US',
+        url: 'https://support.okta.com/help/s/announcement-center?language=en_US',
     },
     {
         name: 'Okta Japan Events',
-        url:'https://www.okta.com/jp/resources/events/',
+        url: 'https://www.okta.com/jp/resources/events/',
     },
     {
         name: 'Okta Japan Blog',
-        url:'https://www.okta.com/jp/blog/',
+        url: 'https://www.okta.com/jp/blog/',
     },
     {
         name: 'Customer Success and Support',
-        url:'https://www.okta.com/jp/services/success-and-support/',
+        url: 'https://www.okta.com/jp/services/success-and-support/',
     }
 ];
 

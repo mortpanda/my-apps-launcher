@@ -53,6 +53,10 @@ export const ProjectSites = [
     url: 'https://mortpanda.github.io/yoshi-angular-jwt-customisation-demo/',
   },
   {
+    name: 'Yoshi White Lions Den Invt',
+    url: 'https://mortpanda.github.io/yoshi-white-lions-den-invt/',
+  },
+  {
     name: 'World Clock',
     url: 'https://mortpanda.github.io/angular-world-clock',
   },
