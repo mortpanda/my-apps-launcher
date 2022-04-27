@@ -19,7 +19,7 @@ export class OktaWidgetService {
   public oktaSignIn;
   public idToken;
   public LogoutURI = this.OktaConfig.strPostLogoutURL;
-  public strMFAStatus;
+  
 
   constructor(private router: Router, private OktaConfig: OktaConfigService) { }
 
@@ -69,7 +69,7 @@ export class OktaWidgetService {
       
     });
     console.log(OktaScope)
-    var myMFADone = await oktaSignIn.showSignInToGetTokens({
+    await oktaSignIn.showSignInToGetTokens({
       el: '#okta-signin-container'
     }).then(function (tokens) {
 
