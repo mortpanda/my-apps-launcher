@@ -39,10 +39,11 @@ export class OktaWidgetService {
     const OktaIssuer = this.OktaConfig.strIssuer;
     const OktaScope = this.OktaConfig.strScope;
     const OktaResType = this.OktaConfig.strResponseType;
-    const OktaResMode = this.OktaConfig.strResponseMode;
+    const OktaResMode = this.OktaConfig.strPrompt;
     const OktaWidgetLogo = this.OktaConfig.strLogo;
+    const OktaPKCE = this.OktaConfig.strPkce;
     var oktaSignIn = new OktaSignIn({
-      logo: OktaWidgetLogo,
+      // logo: OktaWidgetLogo,
       clientId: OktaClientID,
       baseUrl: OktaBaseURI,
       language: OktaLang,
@@ -51,14 +52,20 @@ export class OktaWidgetService {
         brand: OktaBrand,
       },
       postLogoutRedirectUri: OktaPostlogoutURI,
+      features: {
+        rememberMe: false,
+        selfServiceUnlock: false,
+        hideSignOutLinkInMFA: false,
+      },
       authParams: {
         issuer: OktaIssuer,
-        responseMode: 'fragment',
+        responseMode: OktaResMode,
         responseType: OktaResType,
         scopes: OktaScope,
-        pkce: false,
+        pkce: OktaPKCE,
         prompt: OktaResMode
       },
+      useInteractionCodeFlow: 'true',
       
     });
     console.log(OktaScope)
@@ -77,8 +84,7 @@ export class OktaWidgetService {
       console.error(err);
       return false;
     });
-    //console.log('MFA Status : ' + myMFADone)
-    this.strMFAStatus = myMFADone;
+    
   }
 
   
@@ -105,7 +111,7 @@ CloseWidget() {
     postLogoutRedirectUri: OktaPostlogoutURI,
     authParams: {
       issuer: OktaIssuer,
-      responseMode: 'fragment',
+      responseMode: OktaResMode,
       responseType: OktaResType,
       scopes: OktaScope,
       pkce: false,
