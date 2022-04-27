@@ -19,7 +19,7 @@ export class OktaWidgetService {
   public oktaSignIn;
   public idToken;
   public LogoutURI = this.OktaConfig.strPostLogoutURL;
-  // public strMFAStatus;
+  public strMFAStatus;
 
   constructor(private router: Router, private OktaConfig: OktaConfigService) { }
 
@@ -43,7 +43,7 @@ export class OktaWidgetService {
     const OktaWidgetLogo = this.OktaConfig.strLogo;
     const OktaPKCE = this.OktaConfig.strPkce;
     var oktaSignIn = new OktaSignIn({
-      logo: OktaWidgetLogo,
+      // logo: OktaWidgetLogo,
       clientId: OktaClientID,
       baseUrl: OktaBaseURI,
       language: OktaLang,
@@ -68,15 +68,14 @@ export class OktaWidgetService {
       useInteractionCodeFlow: 'true',
       
     });
-    console.log(OktaScope);
-   
-    await oktaSignIn.showSignInToGetTokens({
+    console.log(OktaScope)
+    var myMFADone = await oktaSignIn.showSignInToGetTokens({
       el: '#okta-signin-container'
     }).then(function (tokens) {
+
       oktaSignIn.authClient.tokenManager.setTokens(tokens);
       oktaSignIn.remove();
       const idToken = tokens.idToken;
-      const strTokens = JSON.stringify(tokens)
       console.log("Hello, " + idToken.claims.email + "! You just logged in! :)");
       window.location.replace(OktaRedirect);
       return true;
@@ -112,7 +111,7 @@ CloseWidget() {
     postLogoutRedirectUri: OktaPostlogoutURI,
     authParams: {
       issuer: OktaIssuer,
-      responseMode: 'fragment',
+      responseMode: OktaResMode,
       responseType: OktaResType,
       scopes: OktaScope,
       pkce: false,
