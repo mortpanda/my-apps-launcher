@@ -27,6 +27,10 @@ export const DevInfo = [
     url: 'https://fonts.google.com/icons?selected=Material+Icons',
   },
   {
+    name: 'By People CSS Snippets',
+    url: 'https://www.bypeople.com/css-snippets',
+  },
+  {
     name: 'Ionic Components',
     url: 'https://ionicframework.com/docs/components',
   },
@@ -50,6 +54,6 @@ export const DevInfo = [
     name: 'Markdown cheat sheet',
     url: 'https://www.markdownguide.org/cheat-sheet/',
   },
-  
+
 ];
 
