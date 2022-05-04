@@ -23,6 +23,10 @@ export const DevInfo = [
     url: 'https://material.angular.io/',
   },
   {
+    name: 'MD Bootstrap',
+    url: 'https://mdbootstrap.com/',
+  },
+  {
     name: 'Angular Material Icons',
     url: 'https://fonts.google.com/icons?selected=Material+Icons',
   },
